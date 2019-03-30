@@ -8,6 +8,50 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:639676576785:android:7101b4609b46b660",
+        "android_client_info": {
+          "package_name": "com.example.mikasaloli.hatinh_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639676576785-vf1uhd2ieidlo2m79c4k97t3huk7ejae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mikasaloli.hatinh_final",
+            "certificate_hash": "ba37e939bc03b84d10e53a5ba44a49e8e811d96d"
+          }
+        },
+        {
+          "client_id": "639676576785-sr9os6qdslgqer928rs1n1347ssreadr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTnuDnTxkUI_supm_H-14RgKGPL6YkQxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639676576785-sr9os6qdslgqer928rs1n1347ssreadr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:639676576785:android:b7b5b7385fa390ae",
         "android_client_info": {
           "package_name": "com.example.mikasaloli.myapplication"
@@ -20,6 +64,14 @@
           "android_info": {
             "package_name": "com.example.mikasaloli.myapplication",
             "certificate_hash": "ba37e939bc03b84d10e53a5ba44a49e8e811d96d"
+          }
+        },
+        {
+          "client_id": "639676576785-22tb4guu0gru0spib73t4o4rk4mjd1bc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mikasaloli.myapplication",
+            "certificate_hash": "14ef7bd70950c87406dae7a2533c4f4cc727c4d6"
           }
         },
         {
