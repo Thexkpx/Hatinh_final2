@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "639676576785",
+    "firebase_url": "https://mika1-5a2fc.firebaseio.com",
+    "project_id": "mika1-5a2fc",
+    "storage_bucket": "mika1-5a2fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639676576785:android:b7b5b7385fa390ae",
+        "android_client_info": {
+          "package_name": "com.example.mikasaloli.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639676576785-c9ff51j2ng2og8ru33m6lhdg0rofhd6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mikasaloli.myapplication",
+            "certificate_hash": "ba37e939bc03b84d10e53a5ba44a49e8e811d96d"
+          }
+        },
+        {
+          "client_id": "639676576785-sr9os6qdslgqer928rs1n1347ssreadr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTnuDnTxkUI_supm_H-14RgKGPL6YkQxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639676576785-sr9os6qdslgqer928rs1n1347ssreadr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
