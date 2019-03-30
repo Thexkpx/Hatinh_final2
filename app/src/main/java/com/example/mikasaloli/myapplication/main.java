@@ -49,7 +49,7 @@ public class main extends Fragment {
     private FirebaseDatabase fbdata=FirebaseDatabase.getInstance();
     private DatabaseReference mRef=fbdata.getReference().child("users").child(currentFirebaseUser.getUid());
     String curUid = FirebaseAuth.getInstance().getCurrentUser().getUid();
-    DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("users").child(curUid);
+    DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("users").child(curUid).child("order");
 
 
     @Nullable
@@ -69,11 +69,15 @@ public class main extends Fragment {
         if (user != null) {
 
             thang.setText(curUid);
+
             ref.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
-                    int f1= dataSnapshot.child("order").getValue(Integer.class);
-                    result.setText(f1);
+                    if (dataSnapshot.exists()) {
+                        String post = dataSnapshot.getValue(String.class);
+                        result.setText(post);
+                    }
+
                 }
 
                 @Override
