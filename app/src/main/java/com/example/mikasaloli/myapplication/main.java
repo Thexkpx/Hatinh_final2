@@ -77,11 +77,7 @@ public class main extends Fragment {
                     if (dataSnapshot.exists()) {
                         String post = dataSnapshot.getValue(String.class);
                         result.setText(post);
-                        Intent intent = new Intent(this, AlarmReceiver.class);
-                        intent.putExtra("NotificationText", "some text");
-                        PendingIntent pendingIntent = PendingIntent.getBroadcast(this, ledgerId, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-                        AlarmManager alarmManager = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
-                        alarmManager.set(AlarmManager.RTC_WAKEUP, 'X seconds in milliseconds', pendingIntent);
+
 
                     }
 
