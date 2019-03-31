@@ -82,7 +82,7 @@ public class main extends Fragment {
 
         thang=(TextView) v.findViewById(R.id.textView5);
         testef = FirebaseDatabase.getInstance().getReference().child("users").child(curUid);
-        notificationmanager = NotificationManagerCompat.from(ct.getcontext());
+        notificationmanager = NotificationManagerCompat.from(App.getcontext());
         if (user != null) {
 
             thang.setText(curUid);
@@ -113,7 +113,7 @@ public class main extends Fragment {
                     if (dataSnapshot.exists()) {
                         String post = dataSnapshot.getValue(String.class);
                         result.setText(post);
-                        Notification notification = new NotificationCompat.Builder(ct.getcontext(), CHANNEL_1_ID)
+                        Notification notification = new NotificationCompat.Builder(App.getcontext(), CHANNEL_1_ID)
                                 .setSmallIcon(R.drawable.ic_launcher_foreground)
                                 .setContentTitle(post)
                                 .setContentText("test")

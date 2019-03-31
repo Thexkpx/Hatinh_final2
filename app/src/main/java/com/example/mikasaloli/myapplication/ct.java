@@ -3,7 +3,7 @@ package com.example.mikasaloli.myapplication;
 import android.app.Application;
 import android.content.Context;
 
-public class ct extends App {
+public class ct extends Application {
     public static Context context;
 
     public void onCreate() {
